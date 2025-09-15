@@ -4,9 +4,9 @@ import { Feather } from "@expo/vector-icons" //biblioteca de incones
 import { Ionicons } from "@expo/vector-icons"; //biblioteca de incones
 
 //importação das telas
-import HomeScreen from "../screens/HomeScreen";
-import PlantListScreen from "../screens/PlantListScreen";
-import CategoriesScreen from "../screens/CategoriesScreen";
+import HomeScreen from "../screens/home/HomeScreen";
+import PlantListScreen from "../screens/plantList/PlantListScreen";
+import CategoriesScreen from "../screens/categories/CategoriesScreen";
 
 const Tab = createBottomTabNavigator()
 
